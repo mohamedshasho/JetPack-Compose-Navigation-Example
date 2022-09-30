@@ -1,8 +1,8 @@
 <h1 align="center">Android Compose Navigation Example</h1>
 
-<p align="center">
-<img src="vedio.mp4"/>
-</p>
+
+<img src="preview.gif" align="center" width="320"/>
+
 
 ## Tech
 - [Kotlin](https://kotlinlang.org/) based
