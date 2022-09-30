@@ -18,5 +18,5 @@
    
    
 ## Find this repository useful? :heart:
-Support it by give it star for this repository. :star: <br>
+Support it by a star for this repository. :star: <br>
 Also, __[follow me](https://github.com/mohamedshasho/)__ on GitHub, __[follow me](https://www.linkedin.com/in/mohammad-shasho/)__ on LinkedIn ! 🤩
