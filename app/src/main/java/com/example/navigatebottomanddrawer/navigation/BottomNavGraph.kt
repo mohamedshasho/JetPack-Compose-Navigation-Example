@@ -45,10 +45,10 @@ sealed class BottomBarScreen(
     @DrawableRes val icon: Int
 ) {
     object Product :
-        BottomBarScreen("product", title = "Home", icon = R.drawable.ic_baseline_home_24)
+        BottomBarScreen("home", title = "Home", icon = R.drawable.ic_baseline_home_24)
 
     object Profile :
-        BottomBarScreen(route = "profile", title = "Translate", icon = R.drawable.ic_person)
+        BottomBarScreen(route = "profile", title = "Profile", icon = R.drawable.ic_person)
 
 }
 

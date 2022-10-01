@@ -21,7 +21,7 @@ fun ProductScreen(router: Router) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Red),
+            .background(Color.White),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
