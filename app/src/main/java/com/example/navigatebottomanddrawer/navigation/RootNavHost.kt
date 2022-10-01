@@ -10,6 +10,13 @@ import com.example.navigatebottomanddrawer.screen.setting.SettingScreen
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.composable
 
+
+
+/**
+ * Root Nav Graph
+ *,AnimatedNavHost from google library
+ *
+ * */
 @ExperimentalAnimationApi
 @Composable
 fun RootNavigationGraph(navController: NavHostController) {
@@ -18,6 +25,10 @@ fun RootNavigationGraph(navController: NavHostController) {
         startDestination = Screen.MainScreen.route,
         route = "NAV_ROOT"
     ) {
+
+        /**
+         *,composable from google library
+         * */
         composable(
             route = Screen.MainScreen.route,
             enterTransition = {

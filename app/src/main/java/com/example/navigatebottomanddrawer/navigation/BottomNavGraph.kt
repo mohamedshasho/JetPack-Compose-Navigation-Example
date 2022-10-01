@@ -10,15 +10,23 @@ import com.example.navigatebottomanddrawer.screen.product.ProductScreen
 import com.example.navigatebottomanddrawer.screen.profile.ProfileScreen
 
 
+
+/**
+ * Bottom Nav Graph
+ * must have different controller,
+ * and root router to navigate in full view screen
+ * */
 @Composable
 fun BottomNavGraph(bottomNavController: NavHostController, rootRouter: Router) {
 
+    /**
+     * Here using NavHost instead AnimatedNavHost because not work fine between destination
+     * */
     NavHost(
         navController = bottomNavController,
         startDestination = BottomBarScreen.Product.route,
         route = "HOME",
     ) {
-//        bottomNavGraph(rootNavController, scaffoldState = scaffoldState) todo delete this
         composable(
             route = BottomBarScreen.Product.route,
         ) {
@@ -27,7 +35,6 @@ fun BottomNavGraph(bottomNavController: NavHostController, rootRouter: Router) {
         composable(route = BottomBarScreen.Profile.route) {
             ProfileScreen()
         }
-
     }
 
 }

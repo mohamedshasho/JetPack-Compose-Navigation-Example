@@ -90,6 +90,10 @@ fun HomeScreen(rootRouter: Router) {
         drawerShape = CustomShape
     ) {
 
+        /**
+         * implementation Bottom navigation here
+         * and send different controller than root controller
+         * */
         Box(modifier = Modifier.padding(it)) {
             BottomNavGraph(bottomNavController,rootRouter)
         }
